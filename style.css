@@ -10,6 +10,11 @@
     color: #3f3e3e;
 }
 
+.nav-links a {
+    text-decoration: none;
+    color: #3f3e3e;
+}
+
 @media (max-width: 530px) {
 
     footer {
