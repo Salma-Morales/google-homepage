@@ -1,0 +1,151 @@
+* {
+    font-family: arial,sans-serif;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end; 
+    font-size: small;
+    margin-top: 22px;
+    color: #3f3e3e;
+}
+
+@media (max-width: 530px) {
+
+    footer {
+        font-size: small;
+        color: red;
+    }
+}
+
+.nav-links span {
+    font-size: 23px;
+}
+
+.nli {
+    list-style: none;
+    padding-right: 20px;
+}
+
+#google-logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 215px;
+}
+ #searchform {
+     display: flex;
+     justify-content: center;
+     margin-top: 25px;
+     margin-bottom: 23px;
+ }
+
+ #search {
+    border-radius: 25px;
+    border: solid 1px #dbdbdb;
+    width: 36rem;
+    height: 2.8rem;
+    background-image: url('search-icon.png');
+    background-size: 15px;
+     background-position: 15px 13px;
+     background-repeat: no-repeat;
+ }
+
+ #search:hover {
+    -webkit-box-shadow: 0px 1px 2px 2px rgba(216, 216, 216, 0.97); 
+    box-shadow: 0px 1px 2px 2px rgba(216, 216, 216, 0.97);
+    border: none;
+ }
+
+@media (max-width: 780px) {
+     #search {
+        width: 76vw;
+     }
+ }
+
+.searchplace, .buttons, .idiomas {
+    display: flex;
+    justify-content: center;
+}
+
+ .buttons button{
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    margin: 8px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa; 
+    border-radius: 5px;
+}
+
+.buttons button:hover { 
+    border: solid 1px rgb(206, 206, 206); 
+}
+
+.idiomas {
+    margin: 20px;
+    font-size: small;
+    color: rgb(39, 39, 39);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+    font-size: 15px;
+    color: rgb(114, 114, 114);
+}
+
+.country {
+    margin: 15px 28px 15px;
+}
+
+.other {
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 1px rgb(221, 221, 221);
+
+}
+
+.about-links, .terms-links {
+    display: inline-flex;
+    font-size: 14.3px;
+    padding-right: 23px;
+}
+
+.terms-links {
+    padding-right: 28px;
+}
+
+@media screen and (max-width: 530px) {
+
+    #google-logo {
+    margin-top: 110px;
+    }
+
+    img {
+        width: 150px;
+    }
+
+    #search {
+        height: 35px;
+    }
+
+    .buttons button{
+        border: none;
+        padding: 10px 15px;
+        font-size: small;
+        margin: 8px;
+        
+    }
+
+    .about-links, .terms-links, .country {
+        font-size: 3vw;
+        
+    }
+
+    .other {
+        display: inline-block;
+        line-height: 1px;
+    }
+}
